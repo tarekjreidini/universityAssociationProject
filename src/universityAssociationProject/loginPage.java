@@ -156,7 +156,7 @@ public class loginPage {
 		JButton btnGithubtest = new JButton("githubtest");
 		btnGithubtest.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("hello");
+				System.out.println("kol khara ");
 			}
 		});
 		btnGithubtest.setBounds(117, 157, 117, 29);

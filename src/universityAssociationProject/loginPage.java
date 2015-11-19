@@ -153,6 +153,15 @@ public class loginPage {
 		lblAdministratorPage.setBounds(107, 124, 115, 16);
 		administratorPanel.add(lblAdministratorPage);
 		
+		JButton btnGithubtest = new JButton("githubtest");
+		btnGithubtest.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("hello");
+			}
+		});
+		btnGithubtest.setBounds(117, 157, 117, 29);
+		administratorPanel.add(btnGithubtest);
+		
 		
 		
 		
